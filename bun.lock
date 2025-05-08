@@ -5,6 +5,7 @@
       "name": "e23-platform",
       "dependencies": {
         "@netlify/functions": "3.1.2",
+        "@netlify/vite-plugin-react-router": "^1.0.1",
         "@react-router/node": "^7.5.3",
         "isbot": "^5.1.27",
         "react": "^19.1.0",
@@ -14,16 +15,16 @@
       "devDependencies": {
         "@mjackson/node-fetch-server": "0.6.1",
         "@react-router/dev": "^7.5.3",
-        "@tailwindcss/vite": "^4.1.4",
+        "@tailwindcss/vite": "^4.1.5",
         "@types/express": "^5.0.1",
-        "@types/react": "^19.1.2",
-        "@types/react-dom": "^19.1.2",
+        "@types/react": "^19.1.3",
+        "@types/react-dom": "^19.1.3",
         "cross-env": "^7.0.3",
         "express": "^5.1.0",
         "netlify-cli": "^20.1.1",
-        "tailwindcss": "^4.1.4",
+        "tailwindcss": "^4.1.5",
         "typescript": "^5.8.3",
-        "vite": "^6.3.3",
+        "vite": "^6.3.5",
         "vite-tsconfig-paths": "^5.1.4",
       },
     },
@@ -266,6 +267,8 @@
     "@netlify/run-utils": ["@netlify/run-utils@5.2.0", "", { "dependencies": { "execa": "^6.0.0" } }, "sha512-bsrv7Sjge5g71VMgZ65Ioc5q4lHXdLQCmpUU6sY06Aeol1psi1iDOGVMx/7ExJjbCtQgxye35wZjAz60i6X22Q=="],
 
     "@netlify/serverless-functions-api": ["@netlify/serverless-functions-api@1.33.0", "", { "dependencies": { "@netlify/node-cookies": "^0.1.0", "urlpattern-polyfill": "8.0.2" } }, "sha512-il9HUEC5Nu+6l7vJR2vvolJ12SuI/Yo6K8ZoAKHx7RkMGzS0LHcopDW2pIVRTP8I3vQBxvzuof3FUfqLdAiXhw=="],
+
+    "@netlify/vite-plugin-react-router": ["@netlify/vite-plugin-react-router@1.0.1", "", { "dependencies": { "@react-router/node": "^7.0.1", "isbot": "^5.0.0", "react-router": "^7.0.1" }, "peerDependencies": { "vite": ">=5.0.0" } }, "sha512-JE32RJ6PamX6Yf2yyys7NLaKK4ppcDwuL6mk7NDZ7rt4EWUm+5bz/YjMcLz9uXyo1jDPlWjaUcqRC2MUZKt2DA=="],
 
     "@netlify/zip-it-and-ship-it": ["@netlify/zip-it-and-ship-it@10.0.7", "", { "dependencies": { "@babel/parser": "^7.22.5", "@babel/types": "7.26.10", "@netlify/binary-info": "^1.0.0", "@netlify/serverless-functions-api": "^1.38.0", "@vercel/nft": "0.27.7", "archiver": "^5.3.1", "common-path-prefix": "^3.0.0", "cp-file": "^10.0.0", "es-module-lexer": "^1.0.0", "esbuild": "0.19.11", "execa": "^7.0.0", "fast-glob": "^3.3.2", "filter-obj": "^5.0.0", "find-up": "^6.0.0", "glob": "^8.0.3", "is-builtin-module": "^3.1.0", "is-path-inside": "^4.0.0", "junk": "^4.0.0", "locate-path": "^7.0.0", "merge-options": "^3.0.4", "minimatch": "^9.0.0", "normalize-path": "^3.0.0", "p-map": "^7.0.0", "path-exists": "^5.0.0", "precinct": "^11.0.0", "require-package-name": "^2.0.1", "resolve": "^2.0.0-next.1", "semver": "^7.3.8", "tmp-promise": "^3.0.2", "toml": "^3.0.0", "unixify": "^1.0.0", "urlpattern-polyfill": "8.0.2", "yargs": "^17.0.0", "zod": "^3.23.8" }, "bin": { "zip-it-and-ship-it": "bin.js" } }, "sha512-h7VUDyY6ePD8JA1tM0m8zbWDp03UOmBlPdqgl9/aK1fSVYcoo0qhXmp1Z1n+viKkNkmvBx4KvOLScUJEXPeRnA=="],
 
